@@ -1,2 +1,2 @@
 # tushar_backend
-For learning nodejs
+This is to practice backend development for Tushar
