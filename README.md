@@ -2,9 +2,9 @@
 This is to practice backend development for Tushar
 
 
-BH-INTERNAL-COPY-LEFT
-AppShell
-App Shell is a shell/skeleton that can be used to host multiple web applications within it. It is a React.js, Node.js, and Express application that can onboard apps developed in the different technology stacks. It is available as a code or docker image with product companies within BH.
+
+User Management System
+UMS is a backend application with minimum front end to register user and admin on the MongoDB database. It is a  Node.js, and Express application where a person can enter their details and register themself and do different operations to maintain the User management database.A person can register himself as a user or an admin.
 
 Getting Started
 Installation
