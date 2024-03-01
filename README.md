@@ -43,12 +43,10 @@ Custom timing can be set to automatically logout any user or admin from the appl
 Clone the repository:
 
 - bash
-- Copy code
 - git clone https://github.com/tusharupa4444/tushar_backend.git
 - Install dependencies:
 
 - bash
-- Copy code
 - cd nodejs-user-management
 - npm install
 - Set up environment variables:
@@ -56,7 +54,6 @@ Clone the repository:
 - Create a .env file in the root directory and configure the following variables:
 
 - env
-- Copy code
 - PORT=3000
 - DATABASE_URL=mongodb://localhost:27017/user_management
 
@@ -64,7 +61,6 @@ Clone the repository:
 - Run the application:
 
 - bash
-- Copy code
 - npm start
 - The application will be accessible at http://localhost:3000.
 
