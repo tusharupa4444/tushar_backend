@@ -2,7 +2,9 @@
 Node.js User Management System
 Welcome to the Node.js User Management System! This application provides a secure and efficient way to manage users and administrators. Users can register, verify their email, and log in to access different functionalities based on their role.
 
-[Features]
+[Features](#features)
+
+## Features
 User Registration: Individuals can register themselves as users, providing necessary information.
 Admin Registration: Admins can register and get special privileges.
 Email Verification: Users receive an automatic email with a verification link upon registration.
