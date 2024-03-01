@@ -4,6 +4,8 @@ Welcome to the Node.js User Management System! This application provides a secur
 
 - [Features](#features)
 - [Setup](#setup)
+- [Endpoints](#endpoints)
+
 ## Features
 
 ### User Registration
@@ -61,6 +63,9 @@ Clone the repository:
 - npm start
 - The application will be accessible at http://localhost:3000.
 
+
+## Endpoints
+
 - API Endpoints
 - User Registration
 - Endpoint: /api/register
@@ -76,7 +81,7 @@ Clone the repository:
  - "is_verified": 0
 - }
 - Admin Registration
-- Endpoint: /api/admin/register
+- Endpoint: /api/register
 - Method: POST
 - Payload:
 - json
