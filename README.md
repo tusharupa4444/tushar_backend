@@ -67,7 +67,7 @@ Clone the repository:
 ## Endpoints
 
 
-- # User Registration
+- #### User Registration
 - Endpoint: /api/register
 - Method: POST
 - Payload:
@@ -82,7 +82,7 @@ Clone the repository:
 - }
 
 
-- # Admin Registration
+- ##### Admin Registration
 - Endpoint: /api/register
 - Method: POST
 - Payload:
