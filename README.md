@@ -11,11 +11,23 @@ User Registration: Individuals can register themselves as users, providing neces
 
 ### Admin Registration
 Admin Registration: Admins can register and get special privileges.
+
+### Email Verification
 Email Verification: Users receive an automatic email with a verification link upon registration.
+
+### JWT Authentication
 JWT Authentication: Both users and admins generate their JWT tokens upon login for secure access.
+
+### Role-Based Access Control
 Role-Based Access Control: Different tasks and functionalities are available based on the user's role.
+
+### User Deletion Protection
 User Deletion Protection: Users attempting to delete other users are redirected to the home page.
+
+### Admin User Deletion
 Admin User Deletion: Admins have the privilege to delete users from the database.
+
+#### Restricted Admin Page
 Restricted Admin Page: Admins trying to access the user's special page are redirected to the home page.
 
 
