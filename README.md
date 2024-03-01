@@ -67,12 +67,11 @@ Clone the repository:
 ## Endpoints
 
 
-- #### User Registration
+- ### User Registration
 - Endpoint: /api/register
 - Method: POST
 - Payload:
 - json
-- Copy code
 - {
  - "name":"user",  
  - "email": "user123@example.com",
@@ -82,12 +81,11 @@ Clone the repository:
 - }
 
 
-- ##### Admin Registration
+- ### Admin Registration
 - Endpoint: /api/register
 - Method: POST
 - Payload:
 - json
-- Copy code
 - {
   - "name": "admin",
   - "email": "admin123@example.com",
@@ -97,12 +95,11 @@ Clone the repository:
 - }
 
 
-- # User Login
+- ### User Login
 - Endpoint: /api/login
 - Method: POST
 - Payload:
 - json
-- Copy code
 - {
 -  "email": "user123@example.com",
 -  "password": "securepassword"
@@ -111,14 +108,26 @@ Clone the repository:
 
 
 
-- # User Deletion
+- ### User Deletion
 - Endpoint: /api/delete/:userId
 - Method: DELETE
-- Authorization: Bearer Token (JWT)
+- Authorization:  Token (JWT)
 - Note: Users attempting to delete other users are redirected to the home page.
 
-- # Special User Page
+- ### Special User Page
 - Endpoint: /api//special-access
 - Method: GET
-- Authorization: Bearer Token (JWT)
+- Authorization:  Token (JWT)
 - Note: Admins trying to access the user's special page are redirected to the home page.
+
+
+- ### User Logout 
+- Endpoint: /api/logout
+- Method: GET
+- Authorization: Bearer Token (JWT) gets deleted from coockies
+
+- ### List of all users
+- Endpoint: /api/info
+- Method: GET
+- Authorization: Token (JWT)
+- Note: Users attempting to delete other users are redirected to the home page.

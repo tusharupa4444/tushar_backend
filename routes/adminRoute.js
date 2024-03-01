@@ -24,6 +24,7 @@ admin_route.use(cookieParser());
 
 
 admin_route.get('/del/:id',middleware.restrictToLoggedinAdminOnly,adminController.deleteUserByAdmin);
+admin_route.get('/info',middleware.restrictToLoggedinAdminOnly,userController.getAllUserData);
 
 module.exports = admin_route;
 
