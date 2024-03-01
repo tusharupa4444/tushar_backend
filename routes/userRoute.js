@@ -57,7 +57,7 @@ user_route.get('/home',userController.loadHome);
 
 user_route.get('/verify',userController.verifyMail);
 
-user_route.get('/access',middleware.restrictToLoggedinUserOnly,userController.specilAccess);
+user_route.get('/special-access',middleware.restrictToLoggedinUserOnly,userController.specilAccess);
 user_route.get('/logout',userController.logout);
 user_route.get('/info',userController.getAllUserData);
 user_route.get('/pages',userController.getLimitedData);
