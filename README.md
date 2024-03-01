@@ -3,7 +3,7 @@ Node.js User Management System
 Welcome to the Node.js User Management System! This application provides a secure and efficient way to manage users and administrators. Users can register, verify their email, and log in to access different functionalities based on their role.
 
 [Features](#features)
-
+[Setup](#setup)
 ## Features
 
 ### User Registration
@@ -27,11 +27,12 @@ User Deletion Protection: Users attempting to delete other users are redirected 
 ### Admin User Deletion
 Admin User Deletion: Admins have the privilege to delete users from the database.
 
-#### Restricted Admin Page
+### Restricted Admin Page
 Restricted Admin Page: Admins trying to access the user's special page are redirected to the home page.
 
 
-Setup
+
+## Setup
 Clone the repository:
 
 bash
@@ -51,10 +52,7 @@ env
 Copy code
 PORT=3000
 DATABASE_URL=mongodb://localhost:27017/user_management
-JWT_SECRET=your_jwt_secret_key
-MAILGUN_API_KEY=your_mailgun_api_key
-MAILGUN_DOMAIN=your_mailgun_domain
-Replace the placeholder values with your actual configuration.
+
 
 Run the application:
 
