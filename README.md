@@ -67,7 +67,7 @@ Clone the repository:
 ## Endpoints
 
 
-- User Registration
+- # User Registration
 - Endpoint: /api/register
 - Method: POST
 - Payload:
@@ -82,7 +82,7 @@ Clone the repository:
 - }
 
 
-- Admin Registration
+- # Admin Registration
 - Endpoint: /api/register
 - Method: POST
 - Payload:
@@ -97,7 +97,7 @@ Clone the repository:
 - }
 
 
-- User Login
+- # User Login
 - Endpoint: /api/login
 - Method: POST
 - Payload:
@@ -111,13 +111,13 @@ Clone the repository:
 
 
 
-- User Deletion
+- # User Deletion
 - Endpoint: /api/delete/:userId
 - Method: DELETE
 - Authorization: Bearer Token (JWT)
 - Note: Users attempting to delete other users are redirected to the home page.
 
-- Special User Page
+- # Special User Page
 - Endpoint: /api//special-access
 - Method: GET
 - Authorization: Bearer Token (JWT)
