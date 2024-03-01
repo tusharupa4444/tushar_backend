@@ -2,8 +2,8 @@
 Node.js User Management System
 Welcome to the Node.js User Management System! This application provides a secure and efficient way to manage users and administrators. Users can register, verify their email, and log in to access different functionalities based on their role.
 
-[Features](#features)
-[Setup](#setup)
+-[Features](#features)
+-[Setup](#setup)
 ## Features
 
 ### User Registration
@@ -35,58 +35,58 @@ Restricted Admin Page: Admins trying to access the user's special page are redir
 ## Setup
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/tusharupa4444/tushar_backend.git
-Install dependencies:
+- bash
+- Copy code
+- git clone https://github.com/tusharupa4444/tushar_backend.git
+- Install dependencies:
 
-bash
-Copy code
-cd nodejs-user-management
-npm install
-Set up environment variables:
+- bash
+- Copy code
+- cd nodejs-user-management
+- npm install
+- Set up environment variables:
 
-Create a .env file in the root directory and configure the following variables:
+- Create a .env file in the root directory and configure the following variables:
 
-env
-Copy code
-PORT=3000
-DATABASE_URL=mongodb://localhost:27017/user_management
+- env
+- Copy code
+- PORT=3000
+- DATABASE_URL=mongodb://localhost:27017/user_management
 
 
-Run the application:
+- Run the application:
 
-bash
-Copy code
-npm start
-The application will be accessible at http://localhost:3000.
+- bash
+- Copy code
+- npm start
+- The application will be accessible at http://localhost:3000.
 
-API Endpoints
-User Registration
-Endpoint: /api/register
-Method: POST
-Payload:
-json
-Copy code
-{
-  "name":"user",  
-  "email": "user123@example.com",
-  "password": "securepassword"
-  "is_admin": 0 ,
-  "is_verified": 0
-}
-Admin Registration
-Endpoint: /api/admin/register
-Method: POST
-Payload:
-json
-Copy code
-{
-  "name": "admin",
-  "email": "admin123@example.com",
-  "password": "adminpassword"
-  "is_admin":1 ,
-  "is_verified": 1
+- API Endpoints
+- User Registration
+- Endpoint: /api/register
+- Method: POST
+- Payload:
+- json
+- Copy code
+- {
+ - "name":"user",  
+ - "email": "user123@example.com",
+ - "password": "securepassword"
+ - "is_admin": 0 ,
+ - "is_verified": 0
+- }
+- Admin Registration
+- Endpoint: /api/admin/register
+- Method: POST
+- Payload:
+- json
+- Copy code
+- {
+  - "name": "admin",
+  - "email": "admin123@example.com",
+  - "password": "adminpassword"
+  - "is_admin":1 ,
+  - "is_verified": 1
 }
 User Login
 Endpoint: /api/login
