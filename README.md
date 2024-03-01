@@ -66,7 +66,7 @@ Clone the repository:
 
 ## Endpoints
 
-- API Endpoints
+
 - User Registration
 - Endpoint: /api/register
 - Method: POST
@@ -80,6 +80,8 @@ Clone the repository:
  - "is_admin": 0 ,
  - "is_verified": 0
 - }
+
+
 - Admin Registration
 - Endpoint: /api/register
 - Method: POST
@@ -93,6 +95,8 @@ Clone the repository:
   - "is_admin":1 ,
   - "is_verified": 1
 - }
+
+
 - User Login
 - Endpoint: /api/login
 - Method: POST
@@ -104,29 +108,7 @@ Clone the repository:
 -  "password": "securepassword"
 - }
 
-- API Endpoints
-- User Registration
-- Endpoint: /api/register
-- Method: POST
-- Payload:
-- json
-- Copy code
-- {
-  - "username": "user123",
-  - "email": "user123@example.com",
-  - "password": "securepassword"
-- }
 
-- User Login
-- Endpoint: /api/login
-- Method: POST
-- Payload:
-- json
-- Copy code
-- {
-  - "email": "user123@example.com",
-  - "password": "securepassword"
-- }
 
 
 - User Deletion
