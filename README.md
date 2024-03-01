@@ -32,6 +32,11 @@ Admin User Deletion: Admins have the privilege to delete users from the database
 ### Restricted Admin Page
 Restricted Admin Page: Admins trying to access the user's special page are redirected to the home page.
 
+### Logout after Set time 
+Custom timing can be set to automatically logout any user or admin from the application. User will be redirected to Login page.
+
+
+
 
 
 ## Setup
