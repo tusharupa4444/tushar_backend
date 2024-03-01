@@ -5,7 +5,11 @@ Welcome to the Node.js User Management System! This application provides a secur
 [Features](#features)
 
 ## Features
+
+### User Registration
 User Registration: Individuals can register themselves as users, providing necessary information.
+
+### Admin Registration
 Admin Registration: Admins can register and get special privileges.
 Email Verification: Users receive an automatic email with a verification link upon registration.
 JWT Authentication: Both users and admins generate their JWT tokens upon login for secure access.
