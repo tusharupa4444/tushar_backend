@@ -24,6 +24,30 @@ catch(error)
 
 }
 
+const getAllUserData = async(req,res)=>{
+    
+  //   const allData = User.find({email:"tushar@gmail.com"})
+  //   .select({name:1})
+  //   res.json(allData);
+
+  console.log('----------------------------1111')
+  // console.log(req);
+  // console.log(res);
+  User.find({}).then((data)=>{
+      console.log('------------------------222')
+      console.log(res)
+      
+      res.status(200).json(data)
+      
+  }).catch((error)=>{
+      console.log('-----------------------333')
+      // res.status(400).json({error:error})
+  })
+
+
+}
+
 module.exports = {
-    deleteUserByAdmin
+    deleteUserByAdmin,
+    getAllUserData
 }

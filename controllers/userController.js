@@ -3,6 +3,10 @@
  const session = require('express-session');
  const nodemailer = require("nodemailer");
  const {setUser,setAdmin} = require("../service/auth");
+ const EventEmitter = require("node:events");
+
+ const emittor = new EventEmitter();
+
 
  const securePassword = async(password)=>{
 try{
@@ -196,11 +200,21 @@ const loginLoad = (req,res)=>{
            res.clearCookie('uid');
            console.log("logged out successfully..........")
           res.render('login');
+          emittor.emit(logout);
     } catch(error){
         console.log(error);
 
     }
  }
+
+ emittor.on(logout,()=>{
+    // console.log("U have been logged out");
+    console.log("You have been logged out of the App Successfully");
+ })
+
+
+
+
 
 
  const loadHome = async(req,res)=>{
